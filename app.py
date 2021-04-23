@@ -11,7 +11,7 @@ st.markdown('<style>#vg-tooltip-element{z-index: 1000051}</style>', unsafe_allow
 app.add_app("Key phrases", keyphrase.app)
 app.add_app("Data Stats", data_stats.app)
 
-st.sidebar.title('CRA Webinars')
+st.sidebar.title('Webinars')
 
 # The main app
 app.run()
